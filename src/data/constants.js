@@ -256,19 +256,42 @@ export const skills = [
 ];
 
 export const experiences = [
-  {
-  
+   {
+    id: 5,
+    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",    role: "DevOps & Fullstack Engineering Intern",
+    company: "Tracksy",
+    date: "May 2023 - Present",
+    desc: "Contributed on the project via Fullstack development",
+    skills: [
+      "ReactJS",
+      "Redux",
+      "NodeJs",
+      "Material UI",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Docker",
+      "AWS",
+      "MongoDB",
+    ],
+    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1691181448873.jpeg?alt=media&token=ee85eb8f-7247-43cd-9a1d-ce9f58ea62a6",
   },
-  {
-   },
-  {
+{
+  id: 5,
+  img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
+  role: "Android and IOS Developer ",
+  company: "Rebel",
+  date: "May 2023 - Present",
+  desc: "As an IOS and Andriod developer, I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology.",
+  skills: [
+    "Leadership",
+    "Mobile Application Development",
+    "Kotlin",
+    "XML",
+    "Figma",
+  ],
+  doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1691181448873.jpeg?alt=media&token=ee85eb8f-7247-43cd-9a1d-ce9f58ea62a6",
 },
-  {
-
-  },
-  {
- 
-  },
   {
     id: 5,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
@@ -277,6 +300,7 @@ export const experiences = [
     date: "May 2023 - Present",
     desc: "Contributed to different open-source projects and learn from industry experts",
   },
+
 ];
 
 export const education = [
@@ -369,7 +393,7 @@ export const projects = [
     webapp: "https://podstream.netlify.app/",
     member: [
       {
-        name: "Rishav Chanda",
+        name: "Drake Damon",
         img: "https://avatars.githubusercontent.com/u/64485885?v=4",
         linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
         github: "https://github.com/rishavchanda/",

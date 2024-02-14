@@ -131,6 +131,7 @@ const Grade = styled.div`
 const EducationCard = ({ education }) => {
     return (
         <Card>
+            <p>Education Card is being rendered!</p>
             <Top>
                 <Image src={education.img} />
                 <Body>
