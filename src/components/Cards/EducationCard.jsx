@@ -131,7 +131,6 @@ const Grade = styled.div`
 const EducationCard = ({ education }) => {
     return (
         <Card>
-            <p>Education Card is being rendered!</p>
             <Top>
                 <Image src={education.img} />
                 <Body>
@@ -140,12 +139,15 @@ const EducationCard = ({ education }) => {
                     <Date>{education.date}</Date>
                 </Body>
             </Top>
-            <Grade><b>Grade: </b>{education.grade}</Grade>
+            {education.grade && (
+                <Grade><b>Grade: </b>{education.grade}</Grade>
+            )}
             <Description>
                 <Span>{education.desc}</Span>
             </Description>
         </Card>
-    )
-}
+    );
+};
+
 
 export default EducationCard
