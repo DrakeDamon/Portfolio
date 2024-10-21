@@ -13,16 +13,16 @@ const Projects = ({ openModal, setOpenModal }) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.
+          I have worked on a wide range of projects. From Web apps to Ecommerce pages. Here are some of my projects.
         </Desc>
         <ToggleButtonGroup>
           <ToggleButton active={toggle === 'all'} onClick={() => setToggle('all')}>All</ToggleButton>
           <Divider />
-          <ToggleButton active={toggle === 'web app'} onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+          <ToggleButton active={toggle === 'Web App'} onClick={() => setToggle('Web App')}>Web App</ToggleButton>
           <Divider />
-          <ToggleButton active={toggle === 'android app'} onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
+          <ToggleButton active={toggle === 'Ecommerce'} onClick={() => setToggle('Ecommerce')}>Ecommerce</ToggleButton>
           <Divider />
-          <ToggleButton active={toggle === 'machine learning'} onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
+          <ToggleButton active={toggle === 'Social Media'} onClick={() => setToggle('Social Media')}>Social Media</ToggleButton>
         </ToggleButtonGroup>
         <CardContainer>
           {filteredProjects.map((project) => (
