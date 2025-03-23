@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/DrakeDamon/Portfolio.git/static/css/main.bf538fe7.css",
+    "main.js": "/DrakeDamon/Portfolio.git/static/js/main.7600d2fe.js",
+    "static/media/Headshot1.png": "/DrakeDamon/Portfolio.git/static/media/Headshot1.fd30430784cced6a5b39.png",
+    "index.html": "/DrakeDamon/Portfolio.git/index.html",
+    "main.bf538fe7.css.map": "/DrakeDamon/Portfolio.git/static/css/main.bf538fe7.css.map",
+    "main.7600d2fe.js.map": "/DrakeDamon/Portfolio.git/static/js/main.7600d2fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf538fe7.css",
+    "static/js/main.7600d2fe.js"
+  ]
+}
