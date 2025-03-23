@@ -9,12 +9,7 @@ export const Bio = {
   description:
     "I am a dynamic and adaptable professional, driven by a relentless pursuit of new challenges and a profound commitment to continuous learning. My dedication to excellence ensures the delivery of superior outcomes, while my optimistic outlook and commitment to growth fuel my ability to make significant contributions. Eager to leverage my skills in a meaningful way, I am poised to achieve outstanding achievements and drive positive change.",
   github: "https://github.com/DrakeDamon",
-  resume:
-    "",
   linkedin: "https://www.linkedin.com/in/drake-damon-516509185/",
-  twitter: "",
-  insta: "https://www.instagram.com/theonlytriple_d/",
-  facebook: "",
 };
 
 export const skills = [
