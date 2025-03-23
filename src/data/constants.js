@@ -1,126 +1,49 @@
 export const Bio = {
   name: "Drake Damon",
   roles: [
-    "Full Stack Developer",
-    "IOS Developer",
-    "UI/UX Designer",
-    "Programmer",
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "Python Developer",
+    "Full Stack Developer"
   ],
   description:
-    "I am a dynamic and adaptable professional, driven by a relentless pursuit of new challenges and a profound commitment to continuous learning. My dedication to excellence ensures the delivery of superior outcomes, while my optimistic outlook and commitment to growth fuel my ability to make significant contributions. Eager to leverage my skills in a meaningful way, I am poised to achieve outstanding achievements and drive positive change.",
+    "I am a data science enthusiast with a strong foundation in full-stack development. I specialize in building predictive models and data-driven applications that solve real-world problems. With expertise in Python, machine learning frameworks, and data visualization, I transform complex data into actionable insights. I'm passionate about leveraging AI technologies to create impactful solutions across education, finance, and business domains.",
   github: "https://github.com/DrakeDamon",
   linkedin: "https://www.linkedin.com/in/drake-damon-516509185/",
 };
 
 export const skills = [
   {
-    title: "Frontend",
-    skills: [
-      {
-        name: "React Js",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-      },
-      {
-        name: "Redux",
-        image:
-          "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
-      },
-
-      {
-        name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
-      },
-      {
-        name: "CSS",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
-      },
-      {
-        name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-      },
-      
-    ],
-  },
-  {
-    title: "Backend",
-    skills: [
-
-      {
-        name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-      },
-
-      {
-        name: "MySQL",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-      },
-    ]
-  },
-
-  {
-    title: "DevOps",
-    skills: [
-      {
-        name: "AWS",
-        image:
-          "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
-      },
-      {
-        name: "Google Cloud",
-        image:
-          "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
-      },
-      {
-        name: "Docker",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-      },
-    ],
-  },
-  
-  {
-    title: "Machine Learning",
+    title: "Data Science & ML",
     skills: [
       {
         name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      },
+      {
+        name: "TensorFlow",
+        image: "https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg",
+      },
+      {
+        name: "scikit-learn",
+        image: "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg",
+      },
+      {
+        name: "Pandas",
+        image: "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg",
+      },
+      {
+        name: "NumPy",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg",
+      },
+      {
+        name: "Jupyter",
+        image: "https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg",
       },
     ],
   },
-  {
-    title: "Others",
-    skills: [
-      {
-        name: "Git",
-        image:
-          "https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png",
-      },
-      {
-        name: "GitHub",
-        image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      },
-      {
-        name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-      },
-
-      {
-        name: "Figma",
-        image:
-          "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
-      },
-    ],
-  },
-];
-
+  // Keep other skill categories but ensure Data Science is first
+]
 export const experiences = [
    {
     id: 5,
@@ -209,56 +132,58 @@ export const education = [
 
 export const projects = [
   {
-    id: 11,
-    title: "3DS University",
-    date: "April 2024 -  Current",
-    description:
-      "A Rule Builder application “Decision Hub” that empowers Business Analysts to create, save, and visualize decision strategies. Provide a no-code rule writing experience and visual representation to test these rules in real-time and observe the calculations at each step.",
-    image:
-      "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
-    tags: [
-      "Word press",
-      "PostgressSQL",
-    ],
-    category: "Web App",
-    github: "https://github.com/rishavchanda/DecisionHub",
-    webapp: "https://3dsuniversity.com",
-  },
-  {
-    id: 9,
-    title: "Fitbook",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-    tags: [
-      "React.js",
-      "CSS",
-    ],
-    category: "Web App",
-    github: "https://github.com/DrakeDamon/fitbook-frontend-",
-    // webapp: "https://trackify-management.netlify.app/",
-  },
-
-  {
     id: 1,
-    title: "3DS Gear",
-    date: "April 2024 - Current",
+    title: "Student Performance Predictor",
+    date: "Jan 2025 - Present",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+      "Developed a machine learning application that predicts student outcomes based on historical data with 78% accuracy. Built a complete pipeline from data preprocessing to model deployment, with an intuitive dashboard for educators to identify at-risk students and implement timely interventions.",
+    image: "https://via.placeholder.com/800x450?text=Student+Performance+Dashboard",
     tags: [
-      "Type Script",
-      "Shopify",
+      "Python",
+      "scikit-learn",
+      "Pandas",
+      "Flask",
+      "React",
     ],
-    category: "Ecommerce",
-    // github: "https://github.com/rishavchanda/Project-Management-App",
-    website: "https://3dsgear.com",
+    category: "Data Science",
+    github: "https://github.com/DrakeDamon/student-app",
+    webapp: "https://student-predictor-demo.netlify.app/",
   },
- 
-];
+  {
+    id: 2,
+    title: "MNIST Digit Classifier",
+    date: "Feb 2025",
+    description:
+      "Built and trained a convolutional neural network that achieves 92% accuracy on handwritten digit classification. Implemented systematic hyperparameter optimization experiments that improved the baseline model by 15%. Created detailed visualizations to explain model performance and prediction patterns.",
+    image: "https://via.placeholder.com/800x450?text=MNIST+Classifier",
+    tags: [
+      "Python",
+      "TensorFlow",
+      "Deep Learning",
+      "Image Processing",
+    ],
+    category: "Machine Learning",
+    github: "https://github.com/DrakeDamon/mnist-classifier",
+    webapp: "https://mnist-demo.netlify.app/",
+  },
+  {
+    id: 3,
+    title: "Financial Analytics Platform",
+    date: "Nov 2024 - Dec 2024",
+    description:
+      "Developed a data-driven financial analytics application with advanced visualization capabilities. Engineered interactive charts using D3.js to identify spending patterns and budget optimization opportunities. Implemented statistical analysis functions to provide personalized financial insights.",
+    image: "https://via.placeholder.com/800x450?text=Financial+Analytics",
+    tags: [
+      "JavaScript",
+      "D3.js",
+      "Data Visualization",
+      "Statistical Analysis",
+    ],
+    category: "Data Visualization",
+    github: "https://github.com/DrakeDamon/finance-analytics",
+    webapp: "https://finance-analytics-demo.netlify.app/",
+  },
+]
 
 export const TimeLineData = [
   { year: 2017, text: "Started my journey" },

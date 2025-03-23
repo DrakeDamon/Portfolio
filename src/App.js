@@ -30,7 +30,7 @@ function App() {
   console.log(openModal)
   return (
     <ThemeProvider theme={darkTheme}>
-      <Router >
+      <Router basename={process.env.PUBLIC_URL}>
         <Navbar />
         <Body>
           <HeroSection />
