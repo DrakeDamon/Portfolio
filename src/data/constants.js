@@ -12,9 +12,7 @@ export const Bio = {
   resume: "https://your-resume-link.pdf", // Update with actual resume link
   email: "dddamon06@gmail.com",
   phone: "(316) 609-8566",
-  facebook: "#",
-  twitter: "#",
-  insta: "#"
+
 };
 
 export const skills = [
