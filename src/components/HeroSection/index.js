@@ -137,6 +137,10 @@ const Span = styled.span`
 `;
 
 const SubTitle = styled.div`
+
+  <SubTitle>
+    Passionate about extracting insights from data and building intelligent applications. I combine machine learning expertise with strong software development skills to create impactful data-driven solutions.
+  </SubTitle>
   font-size: 20px;
   line-height: 32px;
   margin-bottom: 42px;

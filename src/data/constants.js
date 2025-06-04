@@ -12,7 +12,6 @@ export const Bio = {
   resume: "https://your-resume-link.pdf", // Update with actual resume link
   email: "dddamon06@gmail.com",
   phone: "(316) 609-8566",
-
 };
 
 export const skills = [
@@ -211,7 +210,6 @@ export const projects = [
         github: "https://github.com/DrakeDamon",
       }
     ],
-    // Data science specific details
     datasetInfo: {
       source: "NFL Combine Performance Dataset",
       size: "10,000+ athlete records",
@@ -305,7 +303,6 @@ export const projects = [
   }
 ];
 
-// New section for certifications
 export const certifications = [
   {
     id: 1,
