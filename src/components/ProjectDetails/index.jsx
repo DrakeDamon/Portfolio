@@ -173,13 +173,12 @@ const MetricsGrid = styled.div`
 `;
 
 const MetricCard = styled.div`
-  display: flex;
-  flex-direction: column;
-  background-color: ${({ theme }) => theme.card_light+50};
-  padding: 12px;
+  background: ${({ theme }) => theme.card_light};
+  padding: 16px;
   border-radius: 8px;
-  box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+  text-align: center;
 `;
+
 
 const MetricName = styled.div`
   font-size: 14px;
@@ -250,6 +249,15 @@ const Button = styled.a`
   }
 `;
 
+const ProjectMetrics = styled.div`
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin: 16px 0;
+`;
+
+
+
 const ProjectDetails = ({ openModal, setOpenModal }) => {
     const project = openModal?.project;
     
@@ -260,6 +268,7 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
       features: "20+ features including academic, behavioral, and demographic data",
       preprocessing: "Handled missing values with multiple imputation, normalized numerical features"
     };
+
     
     const modelArchitecture = project?.modelArchitecture || [
       "Data preprocessing & feature engineering layer",

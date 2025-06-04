@@ -13,7 +13,7 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
       <NavLogo to='/'>
-  <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+  <DiCssdeck size="3rem" /> <Span>David Damon Portfolio</Span>
 </NavLogo>
 
         <MobileIcon>
@@ -27,6 +27,7 @@ const Navbar = () => {
           <NavLink href='#experience'>Experience</NavLink>
           <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#education'>Education</NavLink>
+          <NavLink href="#certifications">Certifications</NavLink>
         </NavItems>
         <ButtonContainer>
           <GitHubButton href={Bio.github} target="_blank">Github Profile</GitHubButton>

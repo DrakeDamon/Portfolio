@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
-import HeroImg from '../../images/Headshot1.png'
+import HeroImg from '../../images/headshotcompressed.png'
 import HeroBgAnimation from '../HeroBgAnimation'
 
 const HeroContainer = styled.div`
@@ -137,23 +137,11 @@ const Span = styled.span`
 `;
 
 const SubTitle = styled.div`
-
-  <SubTitle>
-    Passionate about extracting insights from data and building intelligent applications. I combine machine learning expertise with strong software development skills to create impactful data-driven solutions.
-  </SubTitle>
   font-size: 20px;
   line-height: 32px;
   margin-bottom: 42px;
   color: ${({ theme }) => theme.text_primary + 95};
-
-  @media (max-width: 960px) {
-    text-align: center;
-  }
-
-  @media (max-width: 640px) {
-    font-size: 16px;
-    line-height: 32px;
-  }
+  // ... rest of styles
 `;
 
 const Img = styled.img`
@@ -235,7 +223,7 @@ const Hero = () => {
                     />
                 </Span>
             </TextLoop>
-            <SubTitle>{Bio.description}</SubTitle>
+            <SubTitle>Uniquely positioned Python developer combining rigorous healthcare methodology with advanced ETL pipeline development and machine learning deployment. Transforms complex biological and performance datasets into actionable insights through sophisticated data pipelines and predictive modeling, delivering measurable business impact through precision-driven development approaches.</SubTitle>
             <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton>
           </HeroLeftContainer>
           <HeroRightContainer id="Right">

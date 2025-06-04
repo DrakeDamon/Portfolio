@@ -3,13 +3,13 @@ export const Bio = {
   roles: [
     "Data Engineer",
     "Python Developer", 
-    "Machine Learning Engineer",
+    "ML Engineer",
     "Full Stack Developer"
   ],
   description: "Medical-trained analytical precision meets cutting-edge data engineering expertise. I'm a Python developer specializing in building sophisticated ETL pipelines, data lakehouse architectures, and machine learning deployments. I transform complex biological and performance datasets into actionable insights through precision-driven development approaches.",
   github: "https://github.com/DrakeDamon",
   linkedin: "https://www.linkedin.com/in/drakedamon",
-  resume: "https://your-resume-link.pdf", // Update with actual resume link
+  resume: "https://docs.google.com/document/d/10oR7IdaMmaUZ5iPxpjQShrvFvWfTP5W94NCDfGiIMME/edit?usp=sharing", // Update with actual resume link
   email: "dddamon06@gmail.com",
   phone: "(316) 609-8566",
 };
@@ -260,7 +260,7 @@ export const projects = [
         name: "David Damon",
         img: "https://via.placeholder.com/50",
         linkedin: "https://www.linkedin.com/in/drakedamon",
-        github: "https://github.com/DrakeDamon",
+        github: "https://github.com/DrakeDamon/paycheck-buddy",
       }
     ],
     datasetInfo: {
@@ -328,4 +328,19 @@ export const TimeLineData = [
   { year: 2023, text: "Began teaching and data analysis journey" },
   { year: 2024, text: "Focused on Data Engineering & ML" },
   { year: 2025, text: "Completing Flatiron School Program" },
+];
+
+export const Certifications = [
+  {
+    id: 1,
+    name: "AWS Certified Cloud Practitioner",
+    issuer: "Amazon Web Services",
+    icon: "aws-cert-icon"
+  },
+  {
+    id: 2,
+    name: "Databricks Certified Data Engineer Associate",
+    issuer: "Databricks",
+    icon: "databricks-cert-icon"
+  }
 ];
