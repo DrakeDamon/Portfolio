@@ -1,12 +1,12 @@
 export const Bio = {
   name: "David Damon",
   roles: [
-    "Data Engineer",
-    "Python Developer", 
-    "ML Engineer",
-    "Full Stack Developer"
+    "Data Engineer — Azure Lakehouse",
+    "Databricks / Delta",
+    "dbt & CI/CD",
+    "Python Developer"
   ],
-  description: "Medical-trained analytical precision meets cutting-edge data engineering expertise. I'm a Python developer specializing in building sophisticated ETL pipelines, data lakehouse architectures, and machine learning deployments. I transform complex biological and performance datasets into actionable insights through precision-driven development approaches.",
+  description: "Azure-focused, AI-accelerated data engineer building production lakehouses: ADF ingest → ADLS Gen2 → Databricks Delta (Bronze/Silver/Gold) → dbt marts, operationalized with GitHub Actions and Azure Monitor.",
   github: "https://github.com/DrakeDamon",
   linkedin: "https://www.linkedin.com/in/drakedamon",
   resume: "https://docs.google.com/document/d/10oR7IdaMmaUZ5iPxpjQShrvFvWfTP5W94NCDfGiIMME/edit?usp=sharing", // Update with actual resume link
@@ -37,65 +37,36 @@ export const skills = [
     ]
   },
   {
-    title: "Data Engineering & ETL",
+    title: "Azure Data Platform",
     skills: [
-      {
-        name: "Apache Spark",
-        image: "https://www.vectorlogo.zone/logos/apache_spark/apache_spark-icon.svg",
-      },
-      {
-        name: "Databricks",
-        image: "https://www.vectorlogo.zone/logos/databricks/databricks-icon.svg",
-      },
-      {
-        name: "Pandas",
-        image: "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg",
-      },
-      {
-        name: "NumPy",
-        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg",
-      },
-      {
-        name: "Jupyter",
-        image: "https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg",
-      }
+      { name: "Azure Data Factory", image: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" },
+      { name: "ADLS Gen2", image: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" },
+      { name: "Databricks / Delta", image: "https://www.vectorlogo.zone/logos/databricks/databricks-icon.svg" },
+      { name: "dbt", image: "https://avatars.githubusercontent.com/u/42048915?s=200&v=4" },
+      { name: "Azure Monitor", image: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" }
     ]
   },
   {
-    title: "Cloud & Databases",
+    title: "Data Engineering & Tools",
     skills: [
-      {
-        name: "AWS",
-        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
-      },
-      {
-        name: "PostgreSQL",
-        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg",
-      },
-      {
-        name: "MongoDB",
-        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-      },
-      {
-        name: "Docker",
-        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-      },
-      {
-        name: "Git",
-        image: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
-      }
+      { name: "Apache Spark / PySpark", image: "https://www.vectorlogo.zone/logos/apache_spark/apache_spark-icon.svg" },
+      { name: "Pandas", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" },
+      { name: "Great Expectations", image: "https://avatars.githubusercontent.com/u/48045316?s=200&v=4" },
+      { name: "GitHub Actions", image: "https://www.vectorlogo.zone/logos/github/github-tile.svg" },
+      { name: "Docker", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" }
     ]
   },
   {
     title: "Machine Learning & Web",
     skills: [
-      {
-        name: "TensorFlow",
-        image: "https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg",
-      },
+      
       {
         name: "scikit-learn",
         image: "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg",
+      },
+      {
+        name: "XGBoost",
+        image: "https://avatars.githubusercontent.com/u/21003710?s=200&v=4",
       },
       {
         name: "Flask",
@@ -116,18 +87,19 @@ export const skills = [
 export const experiences = [
   {
     id: 1,
-    img: "https://via.placeholder.com/150?text=DevSoft",
-    role: "React Engineer (Contract)",
-    company: "DevSoft",
-    date: "June 2022 - Present",
-    desc: "Develop and maintain React-based web applications serving 1000+ users with responsive design and performance optimization. Build reusable component libraries implementing state management solutions using Context API and React hooks. Achieved 40% faster load times through code splitting and lazy loading implementations.",
+    img: "https://via.placeholder.com/150?text=Azure+DE",
+    role: "Data Engineer — Azure Lakehouse (Independent Projects)",
+    company: "Personal Projects",
+    date: "2024 - Present",
+    desc: "Built ADF → ADLS Gen2 → Databricks Delta (Bronze/Silver/Gold) → dbt marts pipelines with GitHub Actions CI/CD and Azure Monitor alerts.",
     skills: [
-      "React",
-      "TypeScript",
-      "REST APIs",
-      "Performance Optimization",
-      "State Management",
-      "Code Splitting"
+      "Azure",
+      "ADF",
+      "ADLS Gen2",
+      "Databricks/Delta",
+      "dbt",
+      "GitHub Actions",
+      "Azure Monitor"
     ],
   },
   {
@@ -143,20 +115,6 @@ export const experiences = [
       "Statistical Analysis",
       "Performance Tracking",
       "Educational Analytics"
-    ],
-  },
-  {
-    id: 3,
-    img: "https://via.placeholder.com/150?text=FedEx",
-    role: "CDL Driver",
-    company: "FedEx Freight",
-    date: "2021 - 2023",
-    desc: "Managed commercial vehicle operations across city and road routes ensuring 99.9% on-time delivery performance. Optimized complex logistics coordination and real-time route optimization using GPS and fleet management systems. Maintained detailed delivery logs demonstrating precision attention to detail and data accuracy.",
-    skills: [
-      "Logistics Optimization",
-      "Route Planning",
-      "Data Documentation",
-      "Fleet Management Systems"
     ],
   }
 ];
@@ -183,122 +141,44 @@ export const education = [
 export const projects = [
   {
     id: 1,
-    title: "AI-Powered Sports Analytics Data Lakehouse",
-    date: "2024 - Present",
-    description: "Enterprise-grade real-time data processing platform with Bronze-Silver-Gold architecture and automated ML model deployment. Engineered Databricks data lakehouse processing NFL Combine datasets with 99.9% uptime. Achieved 80%+ prediction accuracy using clustering and neural networks.",
-    image: "https://via.placeholder.com/800x450?text=Sports+Analytics+Lakehouse",
-    tags: [
-      "Python",
-      "Databricks",
-      "Apache Spark",
-      "AWS",
-      "Delta Lake",
-      "Machine Learning",
-      "FastAPI",
-      "PostgreSQL",
-      "OpenCV",
-      "MediaPipe"
-    ],
+    title: "Earthquakes Lakehouse (Azure)",
+    date: "2024",
+    description: "ADF → ADLS Gen2 → Databricks Delta (Bronze/Silver/Gold) with dbt Gold marts (eq_daily_metrics, eq_top100) and Azure Monitor alerts.",
+    image: "https://via.placeholder.com/800x450?text=Earthquakes+Lakehouse",
+    tags: ["Azure", "ADF", "ADLS Gen2", "Databricks/Delta", "dbt", "GitHub Actions", "Azure Monitor"],
     category: "Data Engineering",
-    github: "https://github.com/DrakeDamon/sports-analytics-lakehouse",
-    webapp: "https://sports-analytics-demo.com",
+    github: "https://github.com/DrakeDamon/azure-mini-quake",
+    webapp: "#",
     member: [
-      {
-        name: "David Damon",
-        img: "https://via.placeholder.com/50",
-        linkedin: "https://www.linkedin.com/in/drakedamon",
-        github: "https://github.com/DrakeDamon",
-      }
-    ],
-    datasetInfo: {
-      source: "NFL Combine Performance Dataset",
-      size: "10,000+ athlete records",
-      features: "40+ performance metrics and biomechanical measurements",
-      preprocessing: "Real-time data validation and normalization pipeline"
-    },
-    modelArchitecture: [
-      "Bronze layer: Raw data ingestion with schema validation",
-      "Silver layer: Data cleansing and feature engineering",
-      "Gold layer: Aggregated metrics and ML-ready datasets",
-      "ML Pipeline: Clustering algorithms and neural networks",
-      "Computer vision integration for movement analysis"
-    ],
-    performanceMetrics: {
-      accuracy: "80%+",
-      uptime: "99.9%",
-      querySpeed: "65% faster",
-      concurrentUsers: "1000+"
-    },
-    technicalChallenges: [
-      "Real-time streaming data processing",
-      "Scalable infrastructure design",
-      "Low-latency prediction serving",
-      "Computer vision integration"
+      { name: "David Damon", img: "https://via.placeholder.com/50", linkedin: "https://www.linkedin.com/in/drakedamon", github: "https://github.com/DrakeDamon" }
     ]
   },
   {
     id: 2,
-    title: "PaycheckBuddy Financial Data Platform",
+    title: "Taxi Lakehouse (Azure)",
     date: "2024",
-    description: "Full-stack financial analytics system with time-period based budgeting and real-time expense processing. Built Python Flask API with SQLAlchemy ORM achieving 40% faster query performance. Accelerated financial data processing by 85% through automated validation pipelines.",
-    image: "https://via.placeholder.com/800x450?text=PaycheckBuddy",
-    tags: [
-      "Python",
-      "Flask",
-      "SQLAlchemy",
-      "PostgreSQL",
-      "React",
-      "Chart.js",
-      "JWT Auth",
-      "REST API"
-    ],
-    category: "Full Stack",
-    github: "https://github.com/DrakeDamon/paycheckbuddy",
-    webapp: "https://paycheckbuddy-demo.com",
+    description: "ADF Copy to ADLS, Databricks Bronze/Silver, and dbt Gold fact fct_taxi_daily with failure email alerts and CI integration.",
+    image: "https://via.placeholder.com/800x450?text=Taxi+Lakehouse",
+    tags: ["Azure", "ADF", "ADLS Gen2", "Databricks/Delta", "dbt", "GitHub Actions"],
+    category: "Data Engineering",
+    github: "https://github.com/DrakeDamon/azure-mini-taxi",
+    webapp: "#",
     member: [
-      {
-        name: "David Damon",
-        img: "https://via.placeholder.com/50",
-        linkedin: "https://www.linkedin.com/in/drakedamon",
-        github: "https://github.com/DrakeDamon/paycheck-buddy",
-      }
-    ],
-    datasetInfo: {
-      source: "User financial transaction data",
-      size: "Real-time processing of thousands of transactions",
-      features: "Multi-period budgeting with expense categorization",
-      preprocessing: "Automated validation and data integrity checks"
-    },
-    performanceMetrics: {
-      querySpeed: "40% faster",
-      dataProcessing: "85% faster",
-      responseTime: "< 200ms",
-      reliability: "99.9%"
-    }
+      { name: "David Damon", img: "https://via.placeholder.com/50", linkedin: "https://www.linkedin.com/in/drakedamon", github: "https://github.com/DrakeDamon" }
+    ]
   },
   {
     id: 3,
-    title: "3DS Sports Group Elite Training Platform",
+    title: "Recruit Reveal — Low-Latency Model Serving",
     date: "2024",
-    description: "Modern React-based website for elite athletic training program with performance tracking and athlete management. Built with TypeScript showcasing training programs for elite youth athletes with cross-device accessibility.",
-    image: "https://via.placeholder.com/800x450?text=3DS+Sports+Group",
-    tags: [
-      "React",
-      "TypeScript",
-      "Context API",
-      "Responsive Design",
-      "Performance Optimization"
-    ],
-    category: "Web App",
-    github: "https://github.com/DrakeDamon/3ds-sports-group",
-    webapp: "https://3ds-sports-group.com",
+    description: "XGBoost multi-class models tracked in MLflow; served via SQL UDFs on Databricks SQL Warehouse; Next.js UI.",
+    image: "https://via.placeholder.com/800x450?text=Recruit+Reveal",
+    tags: ["Databricks", "SQL Warehouse", "MLflow", "XGBoost", "Next.js"],
+    category: "ML Engineering",
+    github: "https://github.com/DrakeDamon",
+    webapp: "#",
     member: [
-      {
-        name: "David Damon",
-        img: "https://via.placeholder.com/50",
-        linkedin: "https://www.linkedin.com/in/drakedamon",
-        github: "https://github.com/DrakeDamon",
-      }
+      { name: "David Damon", img: "https://via.placeholder.com/50", linkedin: "https://www.linkedin.com/in/drakedamon", github: "https://github.com/DrakeDamon" }
     ]
   }
 ];
@@ -308,7 +188,7 @@ export const certifications = [
     id: 1,
     name: "AWS Certified Cloud Practitioner",
     issuer: "Amazon Web Services",
-    date: "Expected 2025",
+    date: "",
     icon: "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Cloud-Practitioner_badge.634f8a21af2e0e956ed8905a72366146ba22b74c.png",
     credentialUrl: "#"
   },
@@ -316,7 +196,7 @@ export const certifications = [
     id: 2,
     name: "Databricks Certified Data Engineer Associate",
     issuer: "Databricks",
-    date: "Expected 2025",
+    date: "",
     icon: "https://www.databricks.com/sites/default/files/2022-06/Associate-badge-eng.svg",
     credentialUrl: "#"
   }
@@ -324,9 +204,8 @@ export const certifications = [
 
 export const TimeLineData = [
   { year: 2021, text: "Graduated with Bachelor of Science" },
-  { year: 2022, text: "Started as React Engineer" },
   { year: 2023, text: "Began teaching and data analysis journey" },
-  { year: 2024, text: "Focused on Data Engineering & ML" },
+  { year: 2024, text: "Built Azure & GCP lakehouse projects" },
   { year: 2025, text: "Completing Flatiron School Program" },
 ];
 
