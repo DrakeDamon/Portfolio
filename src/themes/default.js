@@ -1,4 +1,4 @@
-export default {
+const themeDefault = {
   // Fonts: Keeping Space Grotesk, adding a fallback for robustness
   fonts: {
     title: "Space Grotesk, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
@@ -30,3 +30,5 @@ export default {
     xxl: 'screen and (min-width: 1536px)' // Added for 2K+ screens, modern displays
   }
 };
+
+export default themeDefault;

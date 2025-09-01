@@ -1,4 +1,4 @@
-import { CloseRounded, GitHub, LinkedIn, BarChart, DataObject, Architecture, Speed, BugReport } from '@mui/icons-material';
+import { CloseRounded, GitHub, LinkedIn, BarChart, DataObject, Architecture, BugReport } from '@mui/icons-material';
 import { Modal } from '@mui/material';
 import React from 'react'
 import styled from 'styled-components'
@@ -249,12 +249,7 @@ const Button = styled.a`
   }
 `;
 
-const ProjectMetrics = styled.div`
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 16px;
-  margin: 16px 0;
-`;
+// Removed unused styled component to satisfy ESLint (no-unused-vars)
 
 
 
