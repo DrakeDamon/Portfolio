@@ -1,0 +1,4 @@
+[submodule "portfolio-nextjs"]
+  path = portfolio-nextjs
+  url = https://github.com/DrakeDamon/portfolio-nextjs.git
+  branch = master
