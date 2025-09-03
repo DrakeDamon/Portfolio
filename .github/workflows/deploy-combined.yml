@@ -45,7 +45,14 @@ jobs:
       - name: Combine artifacts
         run: |
           mkdir -p build/portfolio-nextjs
-          cp -R portfolio-nextjs/out/* build/portfolio-nextjs/
+          if [ -d portfolio-nextjs/out ]; then
+            # Copy all files including dotfiles (e.g., .nojekyll)
+            cp -R portfolio-nextjs/out/. build/portfolio-nextjs/
+          else
+            echo "Error: Next.js export directory 'portfolio-nextjs/out' not found."
+            echo "Ensure the previous build step succeeded and produced a static export."
+            exit 1
+          fi
           touch build/.nojekyll
 
       - name: Upload artifact
@@ -63,4 +70,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
